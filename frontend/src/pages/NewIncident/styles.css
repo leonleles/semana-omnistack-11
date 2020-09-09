@@ -1,4 +1,4 @@
-.register-container {
+.newincident-container {
     width: 100%;
     max-width: 1120px;
     height: 100vh;
@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-.register-container .content {
+.newincident-container .content {
     width: 100%;
     padding: 96px;
     background: #f0f0f5;
@@ -18,35 +18,36 @@
     align-items: center;
 }
 
-.register-container .content  section{
+.newincident-container .content  section{
     width: 100%;
     max-width: 380px;
 }
 
-.register-container .content section h1 {
+.newincident-container .content section h1 {
     margin: 64px 0 32px;
     font-size: 32px;
 }
 
-.register-container .content section p {
+.newincident-container .content section p {
     font-size: 18px;
     color: #737380;
     line-height: 32px;
 }
 
-.register-container .content form {
+.newincident-container .content form {
     width: 100%;
     max-width: 450px;
 }
 
-.register-container .content form input {
+.newincident-container .content form input,
+.newincident-container .content form textarea {
     margin-top: 8px;
 }
 
-.register-container .content form .input-group{
+.newincident-container .content form .input-group{
     display: flex;
 }
 
-.register-container .content form .input-group input + input{
+.newincident-container .content form .input-group input + input{
     margin-left: 8px;
 }
